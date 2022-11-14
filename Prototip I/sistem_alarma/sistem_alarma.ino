@@ -13,8 +13,8 @@ unsigned long debounceDuration = 50; // millis
 unsigned long lastTimeButtonStateChanged = 0;
 
 
-const char *ssid = "UPC7F34B27";
-const char *password = "Zcwcfj5x7apd";
+const char *ssid = "";
+const char *password = "";
 const long utcOffsetInSeconds = 10800;
 char daysOfTheWeek[7][12] = { "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" };
 ESP8266WebServer server(80);
