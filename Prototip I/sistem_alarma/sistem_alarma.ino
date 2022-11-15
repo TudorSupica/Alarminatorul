@@ -109,5 +109,6 @@ void loop()
   timeClient.update();
   button();
   pauza(timeClient.getHours(), timeClient.getMinutes(), timeClient.getSeconds());
+  delay(1000);
   server.handleClient();
 }
