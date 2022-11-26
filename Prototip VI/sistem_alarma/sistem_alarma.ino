@@ -33,8 +33,8 @@ bool contor_saptamana = false;
 int ora_start=8;
 int ora_sfarsit=19;
 
-const char * ssid = "UPC7F34B27";
-const char * password = "Zcwcfj5x7apd";
+const char * ssid = "";
+const char * password = "";
 
 const long utcOffsetInSeconds = 7200;
 WiFiUDP ntpUDP;
